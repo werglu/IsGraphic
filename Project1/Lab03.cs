@@ -11,7 +11,7 @@ namespace ASD
         
         // Część 1
         //  Sprawdzenie czy podany ciąg stopni jest grafowy
-        //  0.5 pkt
+       
 
         public bool IsGraphic(int[] sequence)
         {
@@ -50,7 +50,7 @@ namespace ASD
 
         //Część 2
         // Konstruowanie grafu na podstawie podanego ciągu grafowego
-        // 1.5 pkt
+    
        
         public Graph ConstructGraph(int[] sequence)
         {
@@ -91,7 +91,7 @@ namespace ASD
 
     //Część 3
     // Wyznaczanie minimalnego drzewa (bądź lasu) rozpinającego algorytmem Kruskala
-    // 2 pkt
+ 
     public Graph MinimumSpanningTree(Graph graph, out double min_weight)
         {
             
